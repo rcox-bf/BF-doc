@@ -1,1 +1,1 @@
-# Transaction Statuse Request Paramaters
+# TSAPI Request Paramaters
