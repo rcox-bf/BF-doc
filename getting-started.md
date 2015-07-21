@@ -16,17 +16,25 @@ There are two base URLs that are important for connecting to the API and they mu
 you need to use the CERT URL. For production (live) processing, you need to just change the first portion
 of the UR to secureL. Both URLs are shown below:
 
+-----
+
 * https://cert.payconex.net/api/
 
 * https://secure.payconex.net/api/
 
+-----
+
 Each API has it's own location that will need to come after the base URL. The following (in bold) are the locations you will need to append
 to the end of the URL to access each API. 
+
+-----
 
 * PayConex (QSAPI): **qsapi/3.8/**
 * Transaction Status (tsapi): **tsapi/3.8/**
 * Reporting Services (RSAPI): **rsapi/3.8/**
 * Scheduling Layer (SLAPI): **slapi/3.8/**
+
+-----
 
 You will be issued different API credentials for certification and production. After the CERT process,
 when you are ready to process cards, you will need to update your API authentication credentials with
@@ -38,11 +46,14 @@ your technical questions, and help troubleshoot code samples, as required.
 
 Click one of the following for more information regarding that specific API:
 
+-----
+
 * [PayConex (QSAPI)](PayConex)
 * [Transaction Status (TSAPI)](Transaction-Status)
 * [Reporting Services (RSAPI)](Reporting-Services)
 * [Scheduling Layer (SLAPI)](Scheduling-Layer)
 
+-----
 
 [**Go Back** - Introduction](README.md)
 
