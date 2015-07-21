@@ -7,7 +7,7 @@ The functions listed below are not an exhaustive guide to all functions that can
 
 Feature| Details
 ------------- | -------------
-[**Tokenization**]() | The payment gateway stores the card number so the client does not have to,significantly minimizing the vendor/merchant’s PCI footprint.
+[**Tokenization**](Tokenization) | The payment gateway stores the card number so the client does not have to,significantly minimizing the vendor/merchant’s PCI footprint.
 [**Point-to-Point Encryption (P2PE)**]()  | Bluefin encrypts the magnetic stripe (track data) and card data at the point of entry using a secure device rather than the computer keyboard. Merchants implementing Bluefin’s PCI-validated P2PE solution can consider their encrypted cardholder data to be completely out of PCI scope.
 [**Transparent Redirect**]() | The transparent redirect feature is an elegant token-based method to securely and transparently collect card data directly from the cardholder while allowing the merchant to still manage the authorization process. Removes the vendor/merchant from PCI transmission scope.
 
@@ -16,15 +16,15 @@ Feature| Details
 
 #### [SALE](SALE)
 -----
-This transaction type allows a merchant to post a sale transaction using either Credit Card or ACH. Please see [tokenization](TOKENIZATION) documentation on how to create a SALE using a previously aquired token. 
+This transaction type allows a merchant to post a sale transaction using either Credit Card or ACH. Please see [tokenization](Tokenization) documentation on how to create a SALE using a previously aquired token. 
 
 #### [AUTHORIZATION](AUTHORIZATION)
 -----
-This transaction type allows a merchant to verify the ability of a card to accept a specific transaction amount without actually charging the card or to validate the card in order to store a token ([click here]() for token explanation) for later use. Funds are reserved on the card for future capture. Please see [tokenization](TOKENIZATION) documentation on how to conduct a CAPTURE or create another AUTHORIZATION from a previously stored token.
+This transaction type allows a merchant to verify the ability of a card to accept a specific transaction amount without actually charging the card or to validate the card in order to store a token ([click here]() for token explanation) for later use. Funds are reserved on the card for future capture. Please see [tokenization](Tokenization) documentation on how to conduct a CAPTURE or create another AUTHORIZATION from a previously stored token.
 
 ####[CREDIT](CREDIT)
 -----
-This allows a merchant the ability to credit money back onto a card. With this transaction type, there is no correlation to an original payment. Please see [tokenization](TOKENIZATION) documentation on how to use a token to create a CREDIT transaction. 
+This allows a merchant the ability to credit money back onto a card. With this transaction type, there is no correlation to an original payment. Please see [tokenization](Tokenization) documentation on how to use a token to create a CREDIT transaction. 
 
 ####[STORE](STORE)
 -----
