@@ -28,6 +28,6 @@ This allows a merchant the ability to credit money back onto a card. With this t
 
 ####[STORE]()
 -----
-This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for later use, without running any actions against the card immediately. This only validates that a card number is in the correct format, it does not validate available funds, expiration date, CVV, or AVS information. Please see [tokenization]() documentation on how to use a token from a store. 
+This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for later use, without running any actions against the card immediately. This only validates that a card number is in the correct format, it does not validate available funds, expiration date, CVV, or AVS information.
 
 [**Go Back To** - Getting Started](/getting-started.md)
