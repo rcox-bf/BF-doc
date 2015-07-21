@@ -14,7 +14,7 @@ environment does support all API functions, including support for card reader de
 
 There are two base URLs that are important for connecting to the API and they must be followed. When developing and testing,
 you need to use the CERT URL. For production (live) processing, you need to just change the first portion
-of the UR to secureL. Both URLs are shown below:
+of the URL to secure. Both URLs are shown below:
 
 -----
 
@@ -24,8 +24,7 @@ of the UR to secureL. Both URLs are shown below:
 
 -----
 
-Each API has it's own location that will need to come after the base URL. The following (in bold) are the locations you will need to append
-to the end of the URL to access each API. 
+Each API has it's own location that will need to come after the base URL. The following (in bold) are the locations you will need to append to the end of the URL to access each API. 
 
 -----
 
