@@ -1,47 +1,48 @@
 #PayConex Transaction Interface - Overview
-PayConex’s flexible, secure and PCI compliant API allows our customers the flexibility to run a wide
-variety of transaction types.
+PayConex’s flexible, secure and PCI compliant API allows our customers the flexibility to run a wide variety of transaction types. The content contained in this portion of the document outlines some of the key features and functions that can be performed using QSAPI. 
 
-####Post a Sale (Payment)
+The functions listed below are not an exhaustive guide to all functions that can be accomplished with QSAPI; rather they are examples of common actions and are meant to help developers get acclimated with the QSAPI functions. Please visit the [variables index]() to review the different parameters that you can post to the API.
+
+## Features
+
+Feature| Details
+------------- | -------------
+[**Tokenization**]() | The payment gateway stores the card number so the client does not have to,significantly minimizing the vendor/merchant’s PCI footprint.
+[**Point-to-Point Encryption (P2PE)**]()  | Bluefin encrypts the magnetic stripe (track data) and card data at the point of entry using a secure device rather than the computer keyboard. Merchants implementing Bluefin’s PCI-validated P2PE solution can consider their encrypted cardholder data to be completely out of PCI scope.
+[**Transparent Redirect**]() | The transparent redirect feature is an elegant token-based method to securely and transparently collect card data directly from the cardholder while allowing the merchant to still manage the authorization process. Removes the vendor/merchant from PCI transmission scope.
+[**Store & Convert**]() | Bluefin supports a “STORE” transaction type that allows a vendor/merchant to convert all of their stored credit card and ACH numbers to tokens, via the API.
+
+##Functions
+
+#### [Sale]()
 -----
-This allows a merchant to post a sale transaction to a variety of tender
-types (Card, ACH, etc.).
+This transaction type allows a merchant to post a sale transaction using either Credit Card or ACH.
 
-####Post an Authorization (Authorization ONLY)
+#### [Authorization]()
 -----
-This allows a merchant to verify the ability of a card to accept a specific
-transaction amount without actually charging the card. Funds are
-reserved on the card for future capture.
+This transaction type allows a merchant to verify the ability of a card to accept a specific transaction amount without actually charging the card or to validate the card in order to store a token ([click here]() for token explanation) for later use. Funds are reserved on the card for future capture.
 
-####Post a Capture
+#### [Capture]()
 -----
 This allows a merchant to capture a previously authorized card, thus converting an Authorization (preauthorization)
 into a Sale.
 
-####Post a Reissue
+#### [Reissue]()
 -----
-This allows a merchant to create a new transaction, using a previously tokenized card. This important
-function allows merchants to create new transactions based on card numbers stored at Bluefin, without
-storing cardholder data on their own systems.
+This allows a merchant to create a new transaction, using a previously (tokenized)[] card. This important function allows merchants to create new transactions based on card numbers stored at Bluefin, without storing cardholder data on their own systems.
 
-####Post a Refund
+####[Refund]()
 -----
-The most common use of this transaction type allows a merchant to refund an existing transaction, but
-will also reverse a recent payment transaction. You can refund the entire amount or a partial amount. If
-a transaction is refunded the same day it is run, then it results in voiding the sale back to a preauthorization
-state. If the transaction is refunded after it has already been captured/settled, then it
-results in crediting the funds back to the card. Bluefin flexibly manages which is the appropriate action
-to take, so all you need to do is submit the refund.
+The most common use of this transaction type allows a merchant to refund an existing transaction, but will also reverse a recent payment transaction. You can refund the entire amount or a partial amount (note: a transaction can only be refunded a single time whether partial or full). 
 
-####Post a Credit
+If a transaction is refunded the same day it is run, then it results in voiding the sale back to a pre-authorization state. If the transaction is refunded after it has already been captured/settled, then it results in crediting the funds back to the card. Bluefin flexibly manages which is the appropriate action to take, so all you need to do is submit the refund.
+
+####[Credit]()
 -----
-This allows a merchant the ability to credit money back onto a card. With this transaction type, there is
-no correlation to an original payment.
+This allows a merchant the ability to credit money back onto a card. With this transaction type, there is no correlation to an original payment.
 
-####Store Only
+####[Store]()
 -----
-This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for
-later use, without running any actions against the card immediately. 
-
+This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for later use, without running any actions against the card immediately. This only validates that a card number is in the correct format, it does not validate available funds, expiration date, CVV, or AVS information.
 
 [**Go Back To** - Getting Started](/getting-started.md)
