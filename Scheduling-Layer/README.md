@@ -7,3 +7,5 @@ actions that can be performed with the SLAPI are as follows:
 * Modify the schedule of an existing recurring payment
 * Modify the amount of a recurring payment
 * Cancel the schedule of an existing recurring payment
+
+[**Go Back To** - Getting Started](/getting-started.md)
