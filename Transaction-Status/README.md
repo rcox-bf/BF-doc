@@ -18,3 +18,5 @@ The added layer of assurance comes into play because since the merchant is in ef
 “originating” entity for the transaction ID, the merchant can then know the applied token ID for that
 transaction regardless of any timeouts in responses that may occur due to Internet connectivity issues
 or other data transfer issues.
+
+[**Go Back To** - Getting Started](/getting-started.md)
