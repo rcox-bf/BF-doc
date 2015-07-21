@@ -35,3 +35,5 @@ no correlation to an original payment.
 ###Store Only
 This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for
 later use, without running any actions against the card immediately. 
+
+[**Go To** - Getting Started](getting-started.md)
