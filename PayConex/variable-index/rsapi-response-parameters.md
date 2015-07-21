@@ -1,0 +1,1 @@
+# RSAPI Response Paramaters
