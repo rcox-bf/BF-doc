@@ -38,10 +38,10 @@ your technical questions, and help troubleshoot code samples, as required.
 
 Click one of the following for more information regarding that specific API:
 
-* [PayConex (QSAPI)]()
-* [Transaction Status (TSAPI)]()
-* [Reporting Services (RSAPI)]()
-* [Scheduling Layer (SLAPI)]()
+* [PayConex (QSAPI)](PayConex)
+* [Transaction Status (TSAPI)](Transaction-Status)
+* [Reporting Services (RSAPI)](Reporting-Services)
+* [Scheduling Layer (SLAPI)](Scheduling-Layer)
 
 
 [**Go Back** - Introduction](README.md)
