@@ -14,19 +14,19 @@ Feature| Details
 
 ##Functions
 
-#### [SALE]()
+#### [SALE](SALE)
 -----
-This transaction type allows a merchant to post a sale transaction using either Credit Card or ACH. Please see [tokenization]() documentation on how to create a SALE using a previously aquired token. 
+This transaction type allows a merchant to post a sale transaction using either Credit Card or ACH. Please see [tokenization](TOKENIZATION) documentation on how to create a SALE using a previously aquired token. 
 
-#### [AUTHORIZATION]()
+#### [AUTHORIZATION](AUTHORIZATION)
 -----
-This transaction type allows a merchant to verify the ability of a card to accept a specific transaction amount without actually charging the card or to validate the card in order to store a token ([click here]() for token explanation) for later use. Funds are reserved on the card for future capture. Please see [tokenization]() documentation on how to conduct a CAPTURE or create another AUTHORIZATION.
+This transaction type allows a merchant to verify the ability of a card to accept a specific transaction amount without actually charging the card or to validate the card in order to store a token ([click here]() for token explanation) for later use. Funds are reserved on the card for future capture. Please see [tokenization](TOKENIZATION) documentation on how to conduct a CAPTURE or create another AUTHORIZATION from a previously stored token.
 
-####[CREDIT]()
+####[CREDIT](CREDIT)
 -----
-This allows a merchant the ability to credit money back onto a card. With this transaction type, there is no correlation to an original payment. Please see [tokenization]() documentation on how to use a token to create a CREDIT. 
+This allows a merchant the ability to credit money back onto a card. With this transaction type, there is no correlation to an original payment. Please see [tokenization](TOKENIZATION) documentation on how to use a token to create a CREDIT transaction. 
 
-####[STORE]()
+####[STORE](STORE)
 -----
 This allows a merchant to store the cardholder data (card number, expiration, name, etc.) for a card, for later use, without running any actions against the card immediately. This only validates that a card number is in the correct format, it does not validate available funds, expiration date, CVV, or AVS information.
 
