@@ -1,7 +1,7 @@
 #PayConex Transaction Interface - Overview
 PayConex’s flexible, secure and PCI compliant API allows our customers the flexibility to run a wide variety of transaction types. The content contained in this portion of the document outlines some of the key features and functions that can be performed using QSAPI. 
 
-The functions listed below are not an exhaustive guide to all functions that can be accomplished with QSAPI; rather they are examples of common actions and are meant to help developers get acclimated with the QSAPI functions. Please visit the [variables index](variable-index) to review the different parameters that you can post to the API.
+The functions listed below are not an exhaustive guide to all functions that can be accomplished with QSAPI; rather they are examples of common actions and are meant to help developers get acclimated with the QSAPI functions. Please visit the [QSAPI variables index](variable-index/qsapi/qsapi-request-parameters.md) to review the different request/response parameters that you can post to the API.
 
 ## Features
 
