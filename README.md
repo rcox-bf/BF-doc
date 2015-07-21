@@ -2,6 +2,7 @@
 This repository has been created to provide an overview of Bluefin Payment Systems family of Application Programming Interface services. Below are description of the services that Bluefin provides through API(s). 
 
 ### PayConex (QSAPI)
+-----
 PayConex is Bluefin’s flagship transaction processing solution. The PayConex API (QSAPI) allows our
 customers to programmatically submit transactions through the PayConex Gateway. QSAPI’s flexible
 solutions allow our customers several options for submitting transactions while maintaining PCI
@@ -12,12 +13,14 @@ Redirection product, a merchant can greatly reduce PCI compliance scope by bypas
 or temporary storage of cardholder data (CHD) on servers, networks, or computing devices.
 
 ### Reporting Services (RSAPI)
+-----
 The Bluefin Reporting Services API (RSAPI) provides our customers with a level of access to reporting
 data rarely found in the industry. Using RSAPI, our customers can request formatted exports of
 transaction data from previous days. RSAPI’s reports contain no sensitive cardholder data, such as card
 numbers, meaning the data provided by RSAPI is 100% PCI compliant. 
 
 ### Transaction Status (TSAPI)
+-----
 The Transaction Status API (TSAPI) ensures processing and communication integrity. Transactions
 submitted through QSAPI are transmitted over the Internet. From time to time, an Internet Service
 Provider (ISP) or upstream Internet network (the backbone of the Internet) may lose a packet or timeout
@@ -28,6 +31,7 @@ declined. This reduces duplicate charges and enhances the overall integrity of t
 process. 
 
 ### Bluefin Scheduling Layer (SLAPI)
+-----
 The Bluefin scheduling layer allows our clients to create recurring payments without having to build a
 client-side recurring payment solution. The Scheduling Layer API (SLAPI) allows our clients to create a
 wide range of recurring transaction scenarios to manage the unique transaction processing needs of
