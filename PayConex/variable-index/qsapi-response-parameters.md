@@ -1,0 +1,1 @@
+# QSAPI Response Variables
