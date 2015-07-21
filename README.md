@@ -1,5 +1,5 @@
 # Introduction - Bluefin API Library
-This repository has been created to provide an overview of Bluefin Payment Systems family of Application Programming Interface services. Below are description of the services that Bluefin provides through API(s). 
+This repository has been created to provide an overview of Bluefin Payment Systems family of Application Programming Interface services. Below are descriptions of services that Bluefin provides through APIs. 
 
 ### PayConex (QSAPI)
 -----
