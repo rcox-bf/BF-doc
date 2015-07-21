@@ -30,7 +30,7 @@ to the end of the URL to access each API.
 -----
 
 * PayConex (QSAPI): **qsapi/3.8/**
-* Transaction Status (tsapi): **tsapi/3.8/**
+* Transaction Status (TSAPI): **tsapi/3.8/**
 * Reporting Services (RSAPI): **rsapi/3.8/**
 * Scheduling Layer (SLAPI): **slapi/3.8/**
 
