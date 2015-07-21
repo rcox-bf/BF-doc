@@ -44,5 +44,4 @@ This allows a merchant to store the cardholder data (card number, expiration, na
 later use, without running any actions against the card immediately. 
 
 
------
 [**Go Back To** - Getting Started](/getting-started.md)
