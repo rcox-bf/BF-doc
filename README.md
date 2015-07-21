@@ -35,4 +35,4 @@ their business. The scheduling layer also allows our clients to access existing 
 using our secure PCI compliant token system to modify, cancel, or view recurring payment schedules
 and details.
 
-See "Getting Started" for an overview of how to begin using these different services.
+See ["Getting Started"](getting-started.md) for an overview of how to begin using these different services.
