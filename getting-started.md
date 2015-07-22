@@ -47,10 +47,10 @@ Click one of the following for more information regarding that specific API:
 
 -----
 
-* [PayConex (QSAPI)](PayConex)
-* [Transaction Status (TSAPI)](Transaction-Status)
-* [Reporting Services (RSAPI)](Reporting-Services)
-* [Scheduling Layer (SLAPI)](Scheduling-Layer)
+* [PayConex (QSAPI)](PayConex/README.md)
+* [Transaction Status (TSAPI)](Transaction-Status/README.md)
+* [Reporting Services (RSAPI)](Reporting-Services/README.md)
+* [Scheduling Layer (SLAPI)](Scheduling-Layer/README.md)
 
 -----
 
