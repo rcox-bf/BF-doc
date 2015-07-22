@@ -8,7 +8,7 @@ The functions listed below are not an exhaustive guide to all functions that can
 Feature| Details
 ------------- | -------------
 [**Tokenization**](Tokenization) | The payment gateway stores the card number so the client does not have to,significantly minimizing the vendor/merchant’s PCI footprint.
-[**Point-to-Point Encryption (P2PE)**]()  | Bluefin encrypts the magnetic stripe (track data) and card data at the point of entry using a secure device rather than the computer keyboard. Merchants implementing Bluefin’s PCI-validated P2PE solution can consider their encrypted cardholder data to be completely out of PCI scope.
+[**Point-to-Point Encryption (P2PE)**](Point-to-Point-Encryption)  | Bluefin encrypts the magnetic stripe (track data) and card data at the point of entry using a secure device rather than the computer keyboard. Merchants implementing Bluefin’s PCI-validated P2PE solution can consider their encrypted cardholder data to be completely out of PCI scope.
 [**Transparent Redirect**]() | The transparent redirect feature is an elegant token-based method to securely and transparently collect card data directly from the cardholder while allowing the merchant to still manage the authorization process. Removes the vendor/merchant from PCI transmission scope.
 
 
