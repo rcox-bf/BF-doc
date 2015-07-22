@@ -1,16 +1,11 @@
-# Tokenization
+# Tokenization Overview
 
-#### [Capture]()
------
-This allows a merchant to capture a previously authorized card, thus converting an Authorization (preauthorization)
-into a Sale.
+Bluefin provides the ability to store card holder data as a token_id that can be accessed at a later time. This can reduce the amount of card holder data travelling over a network which can reduce PCI scope. 
 
-#### [Reissue]()
------
-This allows a merchant to create a new transaction, using a previously (tokenized)[] card. This important function allows merchants to create new transactions based on card numbers stored at Bluefin, without storing cardholder data on their own systems.
+Tokens can be used for a number of different functions across all of our API offerings. Below is an overview of the functions you can accomplish using each API utilizing tokenization.
 
-####[Refund]()
------
-The most common use of this transaction type allows a merchant to refund an existing transaction, but will also reverse a recent payment transaction. You can refund the entire amount or a partial amount (note: a transaction can only be refunded a single time whether partial or full). 
 
-If a transaction is refunded the same day it is run, then it results in voiding the sale back to a pre-authorization state. If the transaction is refunded after it has already been captured/settled, then it results in crediting the funds back to the card. Bluefin flexibly manages which is the appropriate action to take, so all you need to do is submit the refund.
+### What is a token (aka: token_id)?
+
+A token, also known as a token_id is the 12 digit transaction_id of a previous PayConex (QSAPI) transaction. The token_id is used for capture, reissue, and refund transaction types (QSAPI) along with recurring transaction creation (SLAPI).
+
