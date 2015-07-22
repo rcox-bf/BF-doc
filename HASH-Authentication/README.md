@@ -114,4 +114,4 @@ And example of how this could be accomplished using PHP is below:
 ?>
 ```
 
-For more information on Transparent Redirect please [click here](PayConex/Transparent-Redirect) for documentation.
+For more information on Transparent Redirect please [click here](/PayConex/Transparent-Redirect) for documentation.
