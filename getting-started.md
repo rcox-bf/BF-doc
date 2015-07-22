@@ -1,5 +1,5 @@
 #Getting Started
-The first step in developing a connection from your application to any of the PayConex API’s is getting
+The first step in developing a connection from your application to any of the PayConex APIs is getting
 set up with a certification account. You should have been assigned certification credentials during your
 setup process, but if you have not been assigned an account yet, please [click here](https://www.bluefin.com/solutions/integrated-payments-isv/sandbox-account/) and submit the form to request an account. 
 
