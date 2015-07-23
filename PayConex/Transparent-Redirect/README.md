@@ -25,3 +25,5 @@ Transparent redirect REQUIRES the use of HASH authentication. Please see [Exampl
 ## Example Transparent Redirect Page
 
 Please [click here](Example-1/README.md) for an example on using PHP and HTML to create your own Transparent Redirect payment page. 
+
+[Go Back - To PayConex](/PayConex/README.md)
