@@ -12,6 +12,7 @@ CERT accounts are provided with every integration project, and can be made avail
 date should you wish to make coding changes on your end that you would like to test. The CERT
 environment does support all API functions, including support for card reader devices.
 
+#### Base URL
 There are two base URLs that are important for connecting to the API and they must be followed. When developing and testing,
 you need to use the CERT URL. For production (live) processing, you need to just change the first portion
 of the URL to secure. Both URLs are shown below:
@@ -34,6 +35,16 @@ Each API has it's own location that will need to come after the base URL. The fo
 * Scheduling Layer (SLAPI): **slapi/3.8/**
 
 -----
+
+#### HASH for Security
+
+Bluefin highly recommends using a HASH for security reasons. A hash function is an algorithm that
+transforms (hashes) an arbitrary set of data elements, such as a text string or file, into a single fixed
+length value (the hash). The computed hash value is a means of protecting sensitive data. Bluefin has
+included this functionality into its API.
+
+[See HASH documentation for more information.](HASH-Authentication)
+
 
 You will be issued different API credentials for certification and production. After the CERT process,
 when you are ready to process cards, you will need to update your API authentication credentials with
