@@ -20,6 +20,8 @@ the transparent redirect process by passing the URLs in each transaction. It als
 option to selectively not send URLs if they don’t wish to. So transparent redirect can be used, or not
 used, at any time, with any transaction.
 
-Transparent redirect REQUIRES the use of hashed authentication. Please see [Example 3 from the the HASH](/HASH-Authentication) documentation for further explanation. 
+Transparent redirect REQUIRES the use of HASH authentication. Please see [Example 3 from the the HASH](/HASH-Authentication) documentation for further explanation. 
 
+## Example Transparent Redirect Page
 
+Please see this for an example on using PHP and HTML to create your own Transparent Redirect payment page. 
