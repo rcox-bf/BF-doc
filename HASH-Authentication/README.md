@@ -107,7 +107,7 @@ And example of how this could be accomplished using PHP is below:
 	$timestamp = 1360870400;
 
 //The $hash_string concatenates your three required parameters that will be hashed. If you are using transparent redirect you must also add your success and decline URLs. 
-	$hash_string = $account_id.",".$api_accesskey.",".$timestamp.",".$success_url.",".$decline_url.",".$transaction_amount;
+	$hash_string = $account_id.",".$api_accesskey.",".$timestamp.",".$success_url.",".$decline_url;
 	
 //The $hash_value is the variable you will post to PayConex.
 	$hash_value = hash("sha256",$hash_string);
