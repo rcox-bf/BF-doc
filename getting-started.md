@@ -25,10 +25,7 @@ of the URL to secure. Both URLs are shown below:
 
 -----
 
-Each API has it's own location that will need to come after the base URL. The following (in bold) are the locations you will need to append to the end of the URL to access each API. 
-
------
-
+>**NOTE**: Each API has it's own location or endpoint that will need to come after the base URL. The following (in bold) are the locations you will need to append to the end of the URL to access each API. 
 * PayConex (QSAPI): **qsapi/3.8/**
 * Transaction Status (TSAPI): **tsapi/3.8/**
 * Reporting Services (RSAPI): **rsapi/3.8/**
