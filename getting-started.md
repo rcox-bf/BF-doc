@@ -17,21 +17,15 @@ There are two base URLs that are important for connecting to the API and they mu
 you need to use the CERT URL. For production (live) processing, you need to just change the first portion
 of the URL to secure. Both URLs are shown below:
 
------
-
 * https://cert.payconex.net/api/
 
 * https://secure.payconex.net/api/
-
------
 
 >**NOTE**: Each API has it's own location or endpoint that will need to come after the base URL. The following (in bold) are the locations you will need to append to the end of the URL to access each API. 
 * PayConex (QSAPI): **qsapi/3.8/**
 * Transaction Status (TSAPI): **tsapi/3.8/**
 * Reporting Services (RSAPI): **rsapi/3.8/**
 * Scheduling Layer (SLAPI): **slapi/3.8/**
-
------
 
 #### HASH for Security
 
@@ -42,7 +36,6 @@ included this functionality into its API.
 
 [See HASH documentation for more information.](HASH-Authentication)
 
-
 You will be issued different API credentials for certification and production. After the CERT process,
 when you are ready to process cards, you will need to update your API authentication credentials with
 the production credentials that were provided to you for your transactions to process correctly.
@@ -52,8 +45,6 @@ at support@bluefin.com or integration@bluefin.com. Members of our support or int
 your technical questions, and help troubleshoot code samples, as required.
 
 Click one of the following for more information regarding that specific API:
-
------
 
 * [PayConex (QSAPI)](PayConex/README.md)
 * [Transaction Status (TSAPI)](Transaction-Status/README.md)
